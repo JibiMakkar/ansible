@@ -32,7 +32,7 @@ SYMLINK_CACHE = 'SYMLINK_CACHE.json'
 
 def _find_symlinks(topdir, extension=''):
     """Find symlinks that should be maintained
-
+    Test change
     Maintained symlinks exist in the bin dir or are modules which have
     aliases.  Our heuristic is that they are a link in a certain path which
     point to a file in the same directory.
